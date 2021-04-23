@@ -13,7 +13,7 @@ var getAll = function (selector, scope) {
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
   var txt = `PRINT("hello World!")`;
-  var speed = 60;
+  var speed = 45;
 
   function typeItOut () {
     if (i < txt.length) {
