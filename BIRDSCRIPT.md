@@ -20,9 +20,9 @@ interpreted programming language that bridges the gap between Python and shell p
 
 The Python interpreter is easily extended with new functions and data types implemented. Bird Script is also suitable as an extension language for customizable Python applications such as editors or GUI projects.
 
-Bird Script is available for various systems, amongst which most common flavors of MICROSOFT WINDOWS (including 8-10), the Apple Mac, Linux.
+Bird Script is available for various systems, amongst which most common MICROSOFT WINDOWS (including 8-10), the Apple Mac, Linux.
 
-``` Copyright © 1991-1995 by Stichting Mathematisch Centrum, Amsterdam, The Netherlands.
+``` Copyright © 2021 Krishnavyshak.
 
 All Rights Reserved
 
@@ -33,4 +33,3 @@ Permission to use, copy, modify, and distribute
 
  copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the names of the copyright holders not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.
 
-While CWI is the initial source for this software, a modified version is made available by the Corporation for National Research Initiatives (CNRI) at the Internet address ftp://ftp.python.org. ```
