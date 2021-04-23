@@ -12,7 +12,19 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `PRINT("hello World!")`;
+  var txt = `#Creating A Simple Sctipt
+PRINT("ENTER YOUR NAME")
+VAR name = INPUT()
+#Get the name
+
+PRINT("ENTER YOUR AGE")
+VAR age = INPUT_INT()
+#Get the AGE
+
+PRINT(name)
+PRINT(age)
+#Final Result
+`;
   var speed = 80;
 
   function typeItOut () {
