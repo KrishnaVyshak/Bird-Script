@@ -12,7 +12,7 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `#Creating A Simple Sctipt
+  var txt = `<span color="#eeeeee">#Creating A Simple Sctipt</span>
 PRINT("ENTER YOUR NAME")
 VAR name = INPUT()
 #Get the name
