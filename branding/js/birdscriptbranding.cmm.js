@@ -16,7 +16,7 @@ function load_bs_bs_ic_text_logo_black_48() {
 }
 
 function load_bs_bs_ic_text_logo_color_48() {
-  document.getElementById("bs_bs_ic_color").src = "http://www.birdscript.tk/branding/bird_script_text_color_48.png";
+  document.getElementById("bs_bs_ic_txt_color").src = "http://www.birdscript.tk/branding/bird_script_text_color_48.png";
 }
 
 function load_bs_bs_ic_proud_white_48() {
