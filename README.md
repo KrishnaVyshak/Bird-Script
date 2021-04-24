@@ -3,7 +3,7 @@
 0.0.2 alpha - Not Stable
 
 
-Interpreted, Object oriented programming language.</div>
+<h2>Interpreted, Object oriented programming language.</h2></div>
 
 # Abstract
 
