@@ -65,7 +65,7 @@ footer {
 code {
   border-radius: 3px;
   font-family: 'Space Moon', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', Courier, monospace;
-  background: var(--bg-color);
+  background-color: #232323;
   border: 1px solid var(--code-bg-color);
   color: var(--primary-color-light);
   white-space: pre-line;
