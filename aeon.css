@@ -12,6 +12,10 @@
   --code-bg-color: #F0E8E8;
 }
 
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
