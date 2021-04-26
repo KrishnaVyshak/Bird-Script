@@ -1,23 +1,27 @@
-var i = 0;
-var txt = `#Creating A Simple Script
+if (document.getElementsByClassName('demo').length > 0) {
+  var i = 0;
+  var txt = `#Creating A Simple Script
 PRINT("ENTER YOUR NAME")
 VAR name = INPUT()
 #Get the name
+
 PRINT("ENTER YOUR AGE")
 VAR age = INPUT_INT()
 #Get the AGE
+
 PRINT(name)
 PRINT(age)
 #Final Result
-`; /* The text */
-var speed = 80; /* The speed/duration of the effect in milliseconds */
+`;
+  var speed = 80;
 
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+  function typeItOut () {
+    if (i < txt.length) {
+      document.getElementsByClassName('demo')[0].innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeItOut, speed);
+    }
   }
-}
 
-typeWriter();
+  setTimeout(typeItOut, 1800);
+}
