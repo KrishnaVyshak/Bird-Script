@@ -113,3 +113,7 @@ code {
   white-space: pre-line;
   padding-top: 1rem;
 }
+
+.terminal .demo {
+   color: white;
+}
