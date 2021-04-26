@@ -14,7 +14,7 @@ var speed = 80; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementByClassName("demo").innerHTML += txt.charAt(i);
+    document.getElementsByClassName("demo").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
