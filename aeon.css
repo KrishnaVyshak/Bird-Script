@@ -119,13 +119,13 @@ code {
    font-family: 'Oswald', sans-serif;
 }
 
-@media(max-width: 600px) {
+@media screen(max-width: 600px) {
    footer {
       font-size: 15px;
    }
 }
 
-@media(max-width: 900px) {
+@media screen(max-width: 900px) {
    footer {
       font-size: 20px;
    }
