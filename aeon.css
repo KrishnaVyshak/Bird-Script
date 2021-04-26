@@ -33,7 +33,7 @@ footer {
 }
 
 .typewriter {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Oswald', sans-serif;
 	display: inline-block;
 }
 
@@ -69,7 +69,7 @@ footer {
 
 code {
   border-radius: 3px;
-  font-family: 'Space Moon', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', Courier, monospace;
+  font-family: 'Oswald', sans-serif;
   background-color: #232323;
   border: 1px solid var(--code-bg-color);
   color: var(--primary-color-light);
