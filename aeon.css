@@ -114,6 +114,6 @@ code {
   padding-top: 1rem;
 }
 
-.terminal .demo {
-   color: white;
+.lead {
+   font-family= 'Oswald', sans-serif;
 }
