@@ -1,27 +1,25 @@
-if (document.getElementsByClassName('demo').length > 0) {
-  var i = 0;
-  var txt = `#Creating A Simple Script
-PRINT("ENTER YOUR NAME")
-VAR name = INPUT()
-#Get the name
+const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
+const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
+const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
+const header = document.querySelector('.header.container');
 
-PRINT("ENTER YOUR AGE")
-VAR age = INPUT_INT()
-#Get the AGE
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  mobile_menu.classList.toggle('active');
+});
 
-PRINT(name)
-PRINT(age)
-#Final Result
-`;
-  var speed = 80;
-
-  function typeItOut () {
-    if (i < txt.length) {
-      document.getElementsByClassName('demo')[0].innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeItOut, speed);
-    }
+document.addEventListener('scroll', () => {
+  var scroll_position = window.scrollY;
+  if (scroll_position > 250) {
+    header.style.backgroundColor = '#29323c';
+  } else {
+    header.style.backgroundColor = 'transparent';
   }
+});
 
-  setTimeout(typeItOut, 1800);
-}
+menu_item.forEach((item) => {
+  item.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    mobile_menu.classList.toggle('active');
+  });
+});
