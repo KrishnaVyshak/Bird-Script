@@ -42,7 +42,7 @@ p {
   text-align: center;
 }
 .section-title span {
-  color: #FF24CCAC;
+  color: #24CCAC;
 }
 
 .cta {
@@ -68,7 +68,7 @@ p {
   color: white;
 }
 .brand h1 span {
-  color: #FF24CCAC;
+  color: #24CCAC;
 }
 
 /* Header section */
@@ -140,7 +140,7 @@ p {
   letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-  color: #FF24CCAC;
+  color: #24CCAC;
 }
 #header .hamburger {
   height: 60px;
@@ -248,7 +248,7 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: #FF24CCAC;
+  background-color: #24CCAC;
   animation: text_reveal_box 1s ease;
   animation-delay: .5s;
 }
@@ -442,7 +442,7 @@ p {
   top: 19px;
   height: 98%;
   width: 98%;
-  border: 7px solid crimson;
+  border: 7px solid #24CCAC;
   z-index: -1;
 }
 /* End About Section */
@@ -490,7 +490,7 @@ p {
 }
 
 #contact .credit-team span {
-  color: #FF24CCAC;
+  color: #24CCAC;
   font-weight: 500;
 }
 /*End contact Section */
@@ -564,7 +564,7 @@ p {
 }
 @keyframes text_reveal_name {
   100% {
-    color: #FF24CCAC;
+    color: #24CCAC;
     font-weight: 500;
   }
 }
