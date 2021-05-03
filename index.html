@@ -1,80 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>BirdScript</title>
-  
-
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
-  <link rel="stylesheet" href="aeon.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="author" href="humans.txt">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@419&display=swap" rel="stylesheet">
-  <script src="http://www.birdscript.tk/branding/js/birdscriptbranding.cmm.js"></script>
-</head>
-
-<body>
-  
-  <!--navbar-->
-  <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
-      <img src="20210424_093302.png" width="45" height="45">
-      <strong>BirdScript</strong>
-    </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="doc.html">Documentation</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="brand.html">Branding</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-      </div>
-      </nav>
-      <center>
-      <div class="jumbotron">
-        <div class="typewriter">
-          <div class="typewriter-text-1">
-            BirdScript
-          </div>
-        </div>
-        <p class="lead">Interpreted, object-oriented programming language.</p>
-        <hr>
-          <div class="terminal">
-            <pre>
-              
-              <code id="demo"></code>
-            </pre>
-          </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button href="doc.html" class="w3-button w3-white w3-border w3-border-red w3-round-large">Documentation</button>
-      </div>
-      </center>
-  
-</body>
-<footer>Copyright &copy; 2021 BirdScript <br> Powered By <a href="http://aeon-modx.ml">AeonTech API</a></footer>
-  <!-- Project -->
-  <script src="aeon.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="aeon.css"> 
+  <title>BirdScript</title> 
+ </head> 
+ <body> 
+  <!-- Header --> 
+  <section id="header"> 
+   <div class="header container"> 
+    <div class="nav-bar"> 
+     <div class="brand"> 
+      <a href="#hero"><h1><span>B</span>ird <span>S</span>cript</h1></a> 
+     </div> 
+     <div class="nav-list"> 
+      <div class="hamburger"> 
+       <div class="bar"></div> 
+      </div> 
+      <ul> 
+       <li><a href="#hero" data-after="Home">Home</a></li> 
+       <li><a href="#services" data-after="Service">Services</a></li> 
+       <li><a href="#projects" data-after="Projects">Projects</a></li> 
+       <li><a href="#about" data-after="About">About</a></li> 
+       <li><a href="#contact" data-after="Contact">Contact</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <!-- End Header --> 
+  <!-- Hero Section  --> 
+  <section id="hero"> 
+   <div class="hero container"> 
+    <div> 
+     <h1>Hello, <span></span></h1> 
+     <h1>Welcome to  <span></span></h1> 
+     <h1>BirdScript <span></span></h1> 
+     <a href="#projects" type="button" class="cta">Documentation</a> 
+    </div> 
+   </div> 
+  </section> 
+  <!-- End Hero Section  --> 
+  <!-- Service Section --> 
+  <section id="services"> 
+   <div class="services container"> 
+    <div class="service-top"> 
+     <h1 class="section-title">Serv<span>i</span>ces</h1> 
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!</p> 
+    </div> 
+    <div class="service-bottom"> 
+     <div class="service-item"> 
+      <div class="icon"> 
+       <img src="https://img.icons8.com/bubbles/100/000000/services.png"> 
+      </div> 
+      <h2>Web Design</h2> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p> 
+     </div> 
+     <div class="service-item"> 
+      <div class="icon"> 
+       <img src="https://img.icons8.com/bubbles/100/000000/services.png"> 
+      </div> 
+      <h2>Web Design</h2> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p> 
+     </div> 
+     <div class="service-item"> 
+      <div class="icon"> 
+       <img src="https://img.icons8.com/bubbles/100/000000/services.png"> 
+      </div> 
+      <h2>Web Design</h2> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p> 
+     </div> 
+     <div class="service-item"> 
+      <div class="icon"> 
+       <img src="https://img.icons8.com/bubbles/100/000000/services.png"> 
+      </div> 
+      <h2>Web Design</h2> 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <!-- End Service Section --> 
+  <!-- Projects Section --> 
+  <section id="projects"> 
+   <div class="projects container"> 
+    <div class="projects-header"> 
+     <h1 class="section-title">D<span>o</span>cumentati<span>o</span>n
+    </div> 
+    <div class="all-projects"> 
+     <div class="project-item"> 
+      <div class="project-info"> 
+       <h1>Project 1</h1> 
+       <h2>Coding is Love</h2> 
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p> 
+      </div> 
+     </div> 
+     <div class="project-item"> 
+      <div class="project-info"> 
+       <h1>Project 2</h1> 
+       <h2>Coding is Love</h2> 
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p> 
+      </div> 
+     </div> 
+     <div class="project-item"> 
+      <div class="project-info"> 
+       <h1>Project 3</h1> 
+       <h2>Coding is Love</h2> 
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p> 
+      </div> 
+     </div> 
+     <div class="project-item"> 
+      <div class="project-info"> 
+       <h1>Project 4</h1> 
+       <h2>Coding is Love</h2> 
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p> 
+      </div> 
+     </div> 
+     <div class="project-item"> 
+      <div class="project-info"> 
+       <h1>Project 5</h1> 
+       <h2>Coding is Love</h2> 
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <!-- End Projects Section --> 
+  <!-- About Section --> 
+  <section id="about"> 
+   <div class="about container"> 
+    <div class="col-left"> 
+    </div> 
+    <div class="col-right"> 
+     <h1 class="section-title">About <span>BirdScript</span></h1> 
+     <h2>Front End Developer</h2> 
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni! Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!</p> 
+     <a href="#" class="cta">Download Resume</a> 
+    </div> 
+   </div> 
+  </section> 
+  <!-- End About Section --> 
+  <!-- Contact Section --> 
+  <section id="contact"> 
+   <div class="contact container"> 
+    <div> 
+     <h1 class="section-title">Contact <span>info</span></h1> 
+    </div> 
+    <div class="contact-items"> 
+     <div class="contact-item"> 
+      <div class="icon"> 
+       <img src="https://img.icons8.com/bubbles/100/000000/phone.png"> 
+      </div> 
+      <div class="contact-info"> 
+       <h1>Phone</h1> 
+       <h2>+1 234 123 1234</h2> 
+       <h2>+1 234 123 1234</h2> 
+      </div> 
+     </div> 
+     <div class="contact-item"> 
+      <div class="icon"> 
+       <img src="https://img.icons8.com/bubbles/100/000000/new-post.png"> 
+      </div> 
+      <div class="contact-info"> 
+       <h1>Email</h1> 
+       <h2>info@gmail.com</h2> 
+       <h2>abcd@gmail.com</h2> 
+      </div> 
+     </div> 
+     <div class="contact-item"> 
+      <div class="icon"> 
+       <img src="https://img.icons8.com/bubbles/100/000000/user-group-man-woman.png"> 
+      </div> 
+      <div class="credit-team"> 
+       <h1>Team</h1> 
+       <h2>yStack <span>(Owner)</span></h2>
+       <h2>AeonTech <span>(WebDev)</span></h2> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <!-- End Contact Section --> 
+  <!-- Footer --> 
+  <section id="footer"> 
+   <div class="footer container"> 
+    <div class="brand"> 
+     <h1><span>B</span>ird <span>S</span>cript</h1> 
+    </div> 
+    <center>
+    <h2>Intepreted, Oriented Programming Language</h2> 
+    </center>
+    <div class="social-icon"> 
+     <div class="social-item"> 
+      <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"></a> 
+     </div> 
+     <div class="social-item"> 
+      <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"></a> 
+     </div> 
+     <div class="social-item"> 
+      <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"></a> 
+     </div> 
+     <div class="social-item"> 
+      <a href="#"><img src="https://img.icons8.com/doodle/100/000000/telegram-app.png"></a> 
+     </div> 
+    </div> 
+    <p>Copyright © 2021 BirdScript™ ©. All rights reserved</p> 
+   </div> 
+  </section> 
+  <!-- End Footer --> 
+  <script src="./aeon.js"></script> 
+ </body>
 </html>
