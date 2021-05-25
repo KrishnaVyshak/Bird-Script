@@ -1,0 +1,9 @@
+  [
+  {
+    "setup" : ["beta"],
+    "curr-version" : "0.0.1 alpha",
+    "download-url" : "https://secure.gravatar.com/avatar/9884ea0bc01caac378e105297c8d801e?s=320&d=mm&r=g",
+    "status" : 200,
+    "updatable" : true
+  }  
+  ]
