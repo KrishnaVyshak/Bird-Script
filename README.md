@@ -38,7 +38,7 @@ Bird Script --root
 │		bspy.pyc
 │		jbirdscript.pyc
 │		cbs.pyc
-│		birdscript.py/*4
+│		birdscript.py
 │		birdscript_shell.py
 │		select.pdb
 │		select.pyd
