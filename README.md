@@ -6,6 +6,7 @@
 <h3>Interpreted, Object oriented programming language.</h3></div>
 
 # File Format
+#### [may vary according to version changes]
 ```
 Bird Script --root
 ├──  Specs
@@ -17,18 +18,13 @@ Bird Script --root
 │
 ├──  DataKey
 │         └── DataKey.pyc
-│		  DataTkn.ocx
-│		  
+│		  DataTkn.ocx  
 │
 ├──  Constants
-│		└── constants.pyc
-│			
+│		└── constants.pyc	
 │
 ├──  Includes
 │		└── guiMaker.pyc
-│
-│
-│
 │
 ├──  Strings
 │	  └── strings.pyc
