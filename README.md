@@ -6,6 +6,7 @@
 <h3>Interpreted, Object oriented programming language.</h3></div>
 
 # File Format
+```
 Bird Script --root
 ├──  Specs
 │	 └── spec.json
@@ -101,6 +102,7 @@ Bird Script --root
 ├── ProjectSetup-BirdScript.exe
 │
 └──  buid.spec
+```
 
 
 
