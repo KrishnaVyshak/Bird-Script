@@ -17,7 +17,7 @@ Bird Script --root
 │		cofig.pyc
 │
 ├──  DataKey
-│         └── DataKey.pyc
+│         └── DataKey.py
 │		  DataTkn.ocx  
 │
 ├──  Constants
