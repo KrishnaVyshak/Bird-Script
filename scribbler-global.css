@@ -140,7 +140,7 @@ hr {
 }
 
 .button--secondary {
-  padding: 5px 16px;
+  padding: 5px 12px;
   border: 2px solid var(--primary-color);
   transition: all 0.5s ease-out;
   border-radius: 5px;
