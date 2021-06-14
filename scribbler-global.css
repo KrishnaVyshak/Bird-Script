@@ -14,7 +14,7 @@
 }
 
 body{ 
-  cursor: url('cursor/mac.cur'), auto;
+  cursor: url('cursor/tailless.cur'), auto;
 }
 
 /* normalized */
@@ -32,6 +32,8 @@ p {
 
 a, a:hover {
   text-decoration: none;
+   cursor: url('cursor/fing.cur'), auto;
+  cursor: url('cursor/fing.cur'), auto;
   color: var(--primary-color);
 }
 
@@ -140,6 +142,7 @@ hr {
 }
 
 .button--primary:hover::after {
+   cursor: url('cursor/fing.cur'), auto;
   transform: rotate(90deg);
 }
 
@@ -151,6 +154,7 @@ hr {
 }
 
 .button--secondary:hover {
+ cursor: url('cursor/fing.cur'), auto;
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
@@ -162,6 +166,7 @@ hr {
 }
 
 .link:hover {
+ cursor: url('cursor/fing.cur'), auto;
   color: var(--accent-color);
 }
 
