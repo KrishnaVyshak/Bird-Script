@@ -13,6 +13,10 @@
   --code-bg-color: #F0E8E8;
 }
 
+body{ 
+  cursor: url('tailless.cur'), auto;
+}
+
 /* normalized */
 html, body {
   padding: 0;
