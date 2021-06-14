@@ -75,7 +75,7 @@ hr {
   display: inline-block;
   padding: 0.3rem 0.5rem;
   font-weight: 200;
-  cursor: pointer;
+ cursor: url('cursor/fing.cur'), auto;
 }
 
 .tab.active {
@@ -201,7 +201,7 @@ nav {
   border-radius: 2px;
   background: var(--primary-color);
   display: block;
-  cursor: pointer;
+  cursor: url('cursor/fing.cur'), auto;
   transition: all 0.3s ease-in-out;
   right: 0;
 }
