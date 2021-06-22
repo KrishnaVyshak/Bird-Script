@@ -18,9 +18,9 @@ FUN print_greeting(your_name, message)
 		PRINT(your_name + " Has Greeted You " + message)
 END
 
-@ Executing the function
+@ We will execute the function
 print_greeting("Jhon Doe", "Good Morning")`;
-  var speed = 50;
+  var speed = 100;
 
   function typeItOut () {
     if (i < txt.length) {
