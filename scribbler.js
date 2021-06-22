@@ -12,14 +12,15 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `@ Create A function to print hello world!
+  var txt = `@ Create a new function to print greetings
 
-FUN print_hello(context) -> PRINT(context)
+FUN print_greeting(your_name, message)
+		PRINT(your_name + " Has Greeted You " + message)
+END
 
-@ Executing the function.
-print_hello("Hello World!")
-`;
-  var speed = 80;
+@ Executing the function
+print_greeting("Jhon Doe", "Good Morning")`;
+  var speed = 50;
 
   function typeItOut () {
     if (i < txt.length) {
