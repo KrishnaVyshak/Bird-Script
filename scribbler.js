@@ -15,7 +15,7 @@ if (document.getElementsByClassName('demo').length > 0) {
   var txt = `@ Create a new function to print greetings
 
 FUN print_greeting(your_name, message)
-		PRINT(your_name + " Has Greeted You " + message)
+       PRINT(your_name + " Has Greeted You " + message)
 END
 
 @ We will execute the function
