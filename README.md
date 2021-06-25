@@ -1,4 +1,5 @@
-![logo](bslogo.png)
+
+<img src="bslogo.png" height="120px" width="120px">
 <div align="center">
 0.0.1 alpha - Not Stable
 
