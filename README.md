@@ -4,7 +4,7 @@
 0.0.1 alpha - Not Stable
 
 
-<h3>Interpreted, Object oriented programming language.</h3></div>
+<h3>Start where you are. Use what you have. Do what you can.</h3></div>
 
 # File Format
 #### [may vary according to version changes]
