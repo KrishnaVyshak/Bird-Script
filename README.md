@@ -1,5 +1,5 @@
 
-<img src="bslogowt.jpg" height="120px" width="220px">
+<img src="bslogowt.jpg" height="420px" width="420px">
 <div align="center">
 0.0.1 alpha - Not Stable
 
