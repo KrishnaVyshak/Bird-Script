@@ -1,44 +1,29 @@
-# How To Download Bird Script For Android Version 7+
+<h1 id="how-to-download-bird-script-for-android-version-7-">How To Download Bird Script For Android Version 7+</h1>
+<h3 id="download-pydroid-3-ide-for-python-https-play-google-com-store-apps-details-id-ru-iiec-pydroid3-hl-en_in-gl-us">Download Pydroid 3 IDE For Python    <a href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&amp;hl=en_IN&amp;gl=US">https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&amp;hl=en_IN&amp;gl=US</a></h3>
+<h2 id="1-open-pydroid-3-python3-ide">1. Open Pydroid 3 Python3  IDE</h2>
+<h2 id="2-click-on-the-menu-option">2. Click On The Menu Option</h2>
+<h2 id="3-choose-terminal">3. Choose Terminal</h2>
+<h2 id="4-paste-this-code-in-terminal-and-hit-enter">4. Paste This Code In Terminal and hit Enter</h2>
+<pre><code>pip install foolscript==<span class="hljs-number">1.0</span><span class="hljs-number">.0</span>
+</code></pre><h6 id="5-wait-to-finish-install-the-package">5. Wait to Finish Install The Package</h6>
+<h2 id="6-go-back-to-the-editor">6. Go Back To The Editor</h2>
+<pre><code>import foolscript <span class="hljs-keyword">as</span> <span class="hljs-built_in">run</span>
+<span class="hljs-keyword">while</span> True:
+    <span class="hljs-built_in">text</span> = input('&gt;&gt;&gt; ')
+    <span class="hljs-keyword">if</span> <span class="hljs-built_in">text</span>.strip() == <span class="hljs-string">""</span>: <span class="hljs-keyword">continue</span>
+    <span class="hljs-literal">result</span>, <span class="hljs-keyword">error</span> = <span class="hljs-built_in">run</span>.<span class="hljs-built_in">run</span>('&lt;stdin&gt;', <span class="hljs-built_in">text</span>)
 
-### Download Pydroid 3 IDE For Python    https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&hl=en_IN&gl=US
-
-## 1. Open Pydroid 3 Python3  IDE
-
-## 2. Click On The Menu Option
-
-## 3. Choose Terminal
-
-## 4. Paste This Code In Terminal and hit Enter   
-``` 
-pip install foolscript==1.0.0
-```
-
-###### 5. Wait to Finish Install The Package
-
-## 6. Go Back To The Editor
-
-```
-import foolscript as run
-while True:
-    text = input('>>> ')
-    if text.strip() == "": continue
-    result, error = run.run('<stdin>', text)
-
-    if error:
-        print(error.as_string())
-    elif result:
-        if len(result.elements) == 1:
-            print(repr(result.elements[0]))
-        else:
-            print(repr(result))
- ```
-## 7. Paste this code in the editor and save the file as 
-```
-birdscript_shell.py
-```
-## 8. Click on the run Button at the bottom right corner of the editor, then your are set to go🥳🥳
-
-### Screenshot
-[sc1](assets/img/b1.jpg)
-[sc2](assets/img/b3.jpg)
-[sc3](assets/img/b4.jpg)
+    <span class="hljs-keyword">if</span> <span class="hljs-keyword">error</span>:
+        print(<span class="hljs-keyword">error</span>.as_string())
+    elif <span class="hljs-literal">result</span>:
+        <span class="hljs-keyword">if</span> len(<span class="hljs-literal">result</span>.elements) == <span class="hljs-number">1</span>:
+            print(repr(<span class="hljs-literal">result</span>.elements[<span class="hljs-number">0</span>]))
+        <span class="hljs-keyword">else</span>:
+            print(repr(<span class="hljs-literal">result</span>))
+</code></pre><h2 id="7-paste-this-code-in-the-editor-and-save-the-file-as">7. Paste this code in the editor and save the file as</h2>
+<pre><code><span class="hljs-selector-tag">birdscript_shell</span><span class="hljs-selector-class">.py</span>
+</code></pre><h2 id="8-click-on-the-run-button-at-the-bottom-right-corner-of-the-editor-then-your-are-set-to-go-">8. Click on the run Button at the bottom right corner of the editor, then your are set to go🥳🥳</h2>
+<h3 id="screenshot">Screenshot</h3>
+<p><a href="assets/img/b1.jpg">sc1</a>
+<a href="assets/img/b3.jpg">sc2</a>
+<a href="assets/img/b4.jpg">sc3</a></p>
