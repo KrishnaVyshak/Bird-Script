@@ -1,7 +1,7 @@
 [
 {"title" : "Simple Print",
   "code" : "PRINT(\"Hello , World!\")",
-  "description" : ""
+  "description" : "Print “Hello World” in console!"
 },
 {"title" : "Print a variable",
   "code" : "PRINT(a)",
