@@ -24,7 +24,7 @@
   "description" : ""
 },
 {"title" : "Create function with argument",
-  "code" : "FUN bar(name) -> PRINT(\"Hi \" + name\")",
+  "code" : "FUN bar(name) -> PRINT(\"Hi \" + name)",
   "description" : ""
 },
 {"title" : "Pick a random number",
