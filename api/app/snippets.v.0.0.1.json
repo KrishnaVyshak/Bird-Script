@@ -1,6 +1,6 @@
 [
 {"title" : "Simple Print",
-  "code" : "PRINT(\\"Hello , World!\\")",
+  "code" : "PRINT(\"Hello , World!\")",
   "description" : ""
 },
 {"title" : "Print a variable",
@@ -12,19 +12,19 @@
   "description" : ""
 },
 {"title" : "Create Variable as String",
-  "code" : "VAR b = \\"something you like\\"",
+  "code" : "VAR b = \"something you like\"",
   "description" : ""
 },
 {"title" : "Create Variable with user input as string",
-  "code" : "VAR d = INPUT_INT(\\"Enter any number\\")",
+  "code" : "VAR d = INPUT_INT(\"Enter any number\")",
   "description" : ""
 },
 {"title" : "Create a Simple Function",
-  "code" : "FUN foo() -> PRINT(\\"HI\\")",
+  "code" : "FUN foo() -> PRINT(\"HI\")",
   "description" : ""
 },
 {"title" : "Create function with argument",
-  "code" : "FUN bar(name) -> PRINT(\\"Hi \\" + name\\")",
+  "code" : "FUN bar(name) -> PRINT(\"Hi \" + name\")",
   "description" : ""
 },
 {"title" : "Pick a random number",
@@ -32,7 +32,7 @@
   "description" : ""
 },
 {"title" : "Create a list variable",
-  "code" : "VAR e = [\\"item1\\", \\"item2\\", \\"item3\\"]",
+  "code" : "VAR e = [\"item1\", \"item2\", \"item3\"]",
   "description" : ""
 }
 ]
