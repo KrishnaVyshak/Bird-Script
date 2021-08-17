@@ -1,4 +1,3 @@
-###### INFO: This is not source code of Bird Script. It is the website's public file (HTML part). Written with django and hosted with heroku and github
 
 <img src="bslogowtnbg.png" height="100%" width="100%">
 <div align="center">
